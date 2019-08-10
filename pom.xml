@@ -203,6 +203,17 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
+		<repository>
+			<id>myMavenRepo.read</id>
+			<url>https://mymavenrepo.com/repo/c8D4PqJzjC8HxSTh4lUs/</url>
+		</repository>
 	</repositories>
+	<distributionManagement>
+		<repository>
+			<id>myMavenRepo.write</id>
+			<url>https://mymavenrepo.com/repo/1OF9VIedVcMtg1j4TFja/</url>
+		</repository>
+	</distributionManagement>
+
 
 </project>
